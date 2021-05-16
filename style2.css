@@ -1,0 +1,376 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+.container-depoimento {
+    position: relative;
+}
+  
+#texto-depoimento {
+    position: absolute;
+    font-size: 20px;
+    left: 30%;
+    top: 25%;
+    margin-right: 1em;
+    color: white;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.container-dados-do-aluno{
+    position: relative;
+}
+
+#texto-nome-dados-do-aluno {
+    position: absolute;
+    font-size: 20px;
+    left: 20px;
+    top: 20px;
+    color: rgb(85, 85, 85);
+    font-family: sans-serif;
+    text-align: justify;
+    width: 40%;
+}
+
+#texto-renda-dados-do-aluno {
+    position: absolute;
+    font-size: 20px;
+    left: 80%;
+    top: 22%;
+    color: #006E96;
+    font-family: sans-serif;
+    text-align: justify;
+    font-weight: 600;
+}
+
+#texto-idade-dados-do-aluno {
+    position: absolute;
+    font-size: 20px;
+    left: 62%;
+    top: 47%;
+    color: #006E96;
+    font-family: sans-serif;
+    text-align: justify;
+    font-weight: 600;
+}
+
+#texto-n-irmaos-dados-do-aluno {
+    position: absolute;
+    font-size: 20px;
+    left: 90%;
+    top: 47%;
+    color: #006E96;
+    font-family: sans-serif;
+    text-align: justify;
+    font-weight: 600;
+}
+
+body{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-align: center;
+    background-image: url(https://www.tech4me.com.br/wp-content/uploads/2019/06/bg-tech4me4.png); 
+}
+
+.figure-caption{
+    text-align: left;
+    color: black;
+}
+
+.caixa-apresentacao{
+    background-image: url(https://www.tech4me.com.br/wp-content/uploads/2019/06/bg-breadcrumb.png); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    padding: 5% 5% 5% 5%;
+    margin-bottom: 5%;
+}
+
+#main-title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#main-description {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.row{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #006E96;
+    color: white;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-top: 5%;
+ }
+
+ .btn-secondary{
+    font-family: sans-serif;
+    font-weight: bold;   
+ }
+
+.btn-primary{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: bold;    
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #006E96;
+    border-color: #006E96;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-primary:hover{
+    background-color: #FADB00;
+    border-color: #FADB00;
+    color: white;    
+    transform: scale(1.05);
+}
+
+#btn-entrar-plataforma {
+    background-color: #FADB00;
+    border-color: #FADB00;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-size: medium;
+    border-color: #FADB00;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+#btn-entrar-plataforma:hover {
+    transform: scale(1.2);
+}
+
+#img-fase-final{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 75%;
+}
+
+#img-galileo{
+    padding: 50px 50px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+#img-area-do-padrinho{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+}
+
+#btn-cities {
+    height: 150px;
+    width: 220px;
+    font-size: 18px;
+}
+
+.image {
+    display: inline-block;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.button-candidato{
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 325px;
+}
+
+#frame-ceos {
+   width: 90%;
+   height: 35rem;
+}
+
+.parte1 {
+    width: 100%;
+} 
+
+.parte2 {
+    width: 100%;
+} 
+
+/* Create two equal columns that floats next to each other */
+.column-candidatos {
+    float: left;
+    width: 50%;
+    padding: 50px;
+}
+
+/* Clear floats after the columns */
+.row-candidatos:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+hr {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+    .column-candidatos {
+        float: left;
+        width: 100%;
+        padding: 0px;
+    }
+    iframe {
+        width: 100%;
+        height: 320px;
+    }
+}
+
+/* Create two equal columns that floats next to each other */
+.column-cities {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row-cities:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (min-width: 601px) {
+    #main-title {
+        font-size: 36px;
+    }
+    
+    #main-description {
+        font-size: 16px;
+    }
+
+    h1{
+        font-size: 36px;
+    }
+
+    #gmap_canvas{
+        width: 550px;
+        height: 250px;
+    }
+
+    #btn-entrar-plataforma {
+        background-color: #FADB00;
+        color: #021955;
+        width: 200px;
+        height: 50px;
+        border-radius: 50px;
+        font-family: sans-serif;
+        font-size: medium;
+        border-color: #FADB00;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    #main-title {
+        font-size: 24px;
+    }
+    
+    #main-description {
+        font-size: 6px;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    #gmap_canvas{
+        width: 300px;
+        height: 200px;
+    }
+
+    #btn-entrar-plataforma {
+        background-color: #FADB00;
+        color: #021955;
+        width: 150px;
+        height: 50px;
+        border-radius: 50px;
+        font-family: sans-serif;
+        font-size: small;
+        border-color: #FADB00;
+    }
+
+    #texto-depoimento {
+        font-size: 12px;
+    }
+    
+    #texto-nome-dados-do-aluno {
+        font-size: 12px;
+    }
+    
+    #texto-renda-dados-do-aluno {
+        font-size: 12px;
+    }
+    
+    #texto-idade-dados-do-aluno {
+        font-size: 12px;
+    }
+    
+    #texto-n-irmaos-dados-do-aluno {
+        font-size: 12px;
+    }
+    
+
+}
+
+
+/* TABLE RESPONSIVE CIDADES */
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+
+    .column-cities {
+        float: left;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+
+    .column-cities {
+        float: left;
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+
+    .column-cities {
+        float: left;
+        width: 33.3%;
+    }
+
+}
+
+
