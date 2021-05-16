@@ -52,7 +52,7 @@ function loadCandidates() {
         <div class="column-candidatos">
 
             <div class="container-depoimento">
-            <img id="image" class="parte1" src="Midias/depoimento_aluno.png" alt="Depopimento do aluno">
+            <img id="image" class="parte1" src="depoimento_aluno.png" alt="Depopimento do aluno">
             <label id="texto-depoimento">
                 Para mim é um prazer enorme
                 poder contribuir com este Projeto
@@ -64,7 +64,7 @@ function loadCandidates() {
             <iframe frameBorder="0" src="${links[i]}" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="microphone; camera"></iframe>       
 
             <div class="container-dados-do-aluno">
-            <img id="image" class="parte2" src="Midias/dados_do_aluno.png" alt="Dados do aluno">
+            <img id="image" class="parte2" src="dados_do_aluno.png" alt="Dados do aluno">
             <label id="texto-nome-dados-do-aluno">
                 ${nomes[i]}
             </label>
